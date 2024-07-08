@@ -163,7 +163,7 @@ An additional thing to consider, since the off-market sector has never been full
               <li>Extensive background as an influential CFO for Fortune 100 Companies and startups</li>
               <li>AMEX: Controller of Global Credit & CFO Corporate Cards</li>
               <li>Paxos: CFO, raised 300M</li>
-              <li>RTFKT: CFO, ~1 billion acquisition by Nike</li>
+              <li>RTFKT: CFO, ~$1Bn acquisition by Nike</li>
               <li>CFO for Yuga Labs and Doodles</li>
             </ul>
             {/* <p>Kim is an influential CFO with a track record of success in both large corporations and startups. Her financial insights help us navigate complex financial landscapes.</p> */}
