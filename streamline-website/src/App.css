@@ -75,12 +75,18 @@ nav ul li {
 
 .section {
   padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Ensure image width matches paragraph width on narrower web views */
 .section img {
-  max-width: 50%; /* Adjust image size */
+  max-width: 800px;
+  width: 100%;
   height: auto;
   margin-bottom: 20px;
+  transition: width 0.3s ease-in-out, max-width 0.3s ease-in-out; /* Smooth transition */
 }
 
 /* Limit the width of paragraphs for readability */
@@ -88,6 +94,7 @@ nav ul li {
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
+  width: 100%; /* Ensure paragraphs take up full width */
 }
 
 .team-container, .advisor-container {
@@ -143,6 +150,7 @@ nav ul li {
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
+  width: 100%; /* Ensure paragraphs take up full width */
 }
 
 .form-container {
@@ -274,5 +282,28 @@ nav ul li {
 
   #contact p {
     max-width: 90%;
+  }
+
+  /* Specific styles for images under fundraising and roadmap */
+  #fundraising img,
+  #roadmap img {
+    max-width: 90%; /* Limit the width to 90% to match paragraph width */
+    height: auto;
+  }
+}
+
+/* Ensure image width matches paragraph width on narrower web views */
+@media (min-width: 769px) and (max-width: 1200px) {
+  #fundraising img,
+  #roadmap img {
+    max-width: 90%; /* Ensure images don't get smaller than paragraphs */
+  }
+}
+
+/* Ensuring a reasonable size for full-sized web view */
+@media (min-width: 1201px) {
+  #fundraising img,
+  #roadmap img {
+    max-width: 50%; /* Ensure images don't get too large on full-sized web view */
   }
 }
