@@ -215,7 +215,9 @@ An additional thing to consider, since the off-market sector has never been full
           <h2>Road Map</h2>
           <img src={roadmap} alt="Roadmap Image" />
           <p>Months 1-4: Going into production and successfully identifying first matches on our platform. Accounting for typical transaction timeframes, we anticipate closing in Month 5 (break-even point).</p>
+          <br></br>
           <p>Post Month 5: We’ll scale by re-investing further into data aggregation and increased sales force. As our sales team qualifies more buyers and available off-market properties, our deal conversion rate will improve. Buyer-seller match probability increases as transactional information is added to the matching engine.</p>
+          <br></br>
           <p>Upon proof of concept, we’ll begin hiring management focused on ramping up sales force and data team. Ultimately, we aim to capture every off-market buyer and seller.</p>
         </section>
 
