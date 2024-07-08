@@ -6,6 +6,7 @@ const logo = "https://imgur.com/usOsLpl.jpg";
 const background = "https://imgur.com/yFesOhI.jpg";
 const solution = "https://imgur.com/YnL7S12.jpg";
 const fundraising = "https://imgur.com/0jSo3t2.jpg";
+const roadmap = "https://imgur.com/tXywojY.jpg";
 const vasilios = "https://imgur.com/VF5N3e1.jpg";
 const scott = "https://imgur.com/Iymy1Wv.jpg";
 const brian = "https://imgur.com/8aIAkqF.jpg";
@@ -13,6 +14,8 @@ const dylan = "https://imgur.com/OuJAtyV.jpg";
 const larry = "https://imgur.com/XvIOB5N.jpg";
 const tony = "https://imgur.com/v4xL6pk.jpg";
 const kim = "https://imgur.com/XnKzuoz.jpg";
+
+
 
 function App() {
   return (
@@ -163,7 +166,7 @@ An additional thing to consider, since the off-market sector has never been full
               <li>Extensive background as an influential CFO for Fortune 100 Companies and startups</li>
               <li>AMEX: Controller of Global Credit & CFO Corporate Cards</li>
               <li>Paxos: CFO, raised 300M</li>
-              <li>RTFKT: CFO, ~$1Bn acquisition by Nike</li>
+              <li>RTFKT: CFO, ~$1Bn ACQ by Nike</li>
               <li>CFO for Yuga Labs and Doodles</li>
             </ul>
             {/* <p>Kim is an influential CFO with a track record of success in both large corporations and startups. Her financial insights help us navigate complex financial landscapes.</p> */}
@@ -194,6 +197,7 @@ An additional thing to consider, since the off-market sector has never been full
         <img src={fundraising} alt="Fundraising Image" />
         <p>Based on a $2.5M average deal size and 4% commission in Texas retail, with 88% of total commission being netted to the company - we would make $88,000 per deal at a cost of roughly $1,000 per deal. Our first year of revenue depends on how many leads can be converted into deals, price-point, and commission rate. Once traction is established, it comes down to how fast we can bring on more data and increase our sales team. If we can achieve around a 1% conversion rate (Which should increase as more buy/sell criteria is aggregated into the CRM-matching engine), it's possible to achieve over 70M net revenue in a 1 year timeframe.</p>
         <br></br>
+        <br></br>
         <h3>Support Our Growth</h3>
         <p>As a bare minimum, we're aiming for $45,000 in funding to reach profitability - assuming it takes six months for our first deals to close. Once we're a few months in, we're looking to raise upwards of 1.5M from VCs to start salarying our executives, technical team, increase data aggregation, and onboard more dedicated agents/brokers. We anticipate geometric growth potential after proof of concept - as a disruptive competitor in the real estate brokerage industry, and are working on streamlining the lead procurement process to automatically convert vast amounts of real estate data into valuable leads, without much manual effort.</p>
         <ul>
@@ -202,22 +206,28 @@ An additional thing to consider, since the off-market sector has never been full
           <li>Commission rate: 4%</li>
           <li>Net capture: 88% of total commission</li> */}
         </ul>
-
+        <br></br>
         <br></br>
 
-        <h3>Milestones</h3>
+        <h3>Road Map</h3>
         <div className="milestone">
-          <h4>Milestone 1: Testing and Production</h4>
+        <img src={roadmap} alt="Fundraising Image" />
+          <p>Months 1-4: Going into production and successfully identifying first matches on our platform. Accounting for typical transaction timeframes, we anticipate closing in Month 5 (break-even point).</p>
+          <br></br>
+          <p>Post Month 5: We’ll scale by re-investing further into data aggregation and increased sales force. As our sales team qualifies more buyers and available off-market properties, our deal conversion rate will improve. Buyer-seller match probability increases as transactional information is added to the matching engine.</p>
+          <br></br>
+          <p>Upon proof of concept, we’ll begin hiring management focused on ramping up sales force and data team. Ultimately, we aim to capture every off-market buyer and seller.</p>
+          {/* <h4>Milestone 1: Testing and Production</h4> */}
           {/* <p>We just finished testing the application and will be going into production next week with our Chief Operating Broker, Scott Landers, as the first user on the platform.</p> */}
         </div>
-        <div className="milestone">
-          <h4>Milestone 2: First Deals</h4>
+        {/* <div className="milestone"> */}
+          {/* <h4>Milestone 2: First Deals</h4> */}
           {/* <p>We are looking to raise funds to establish traction, proof of concept, and reach profitability after closing our first deals.</p> */}
-        </div>
-        <div className="milestone">
-          <h4>Milestone 3: Scaling Operations</h4>
+        {/* </div> */}
+        {/* <div className="milestone"> */}
+          {/* <h4>Milestone 3: Scaling Operations</h4> */}
           {/* <p>We aim to raise $1.5M from VCs to start salarying our executives, technical team, increase data aggregation, and onboard more dedicated agents/brokers.</p> */}
-        </div>
+        {/* </div> */}
       </section>
 
       <section id="blog" className="section">
