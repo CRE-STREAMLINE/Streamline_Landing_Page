@@ -267,7 +267,7 @@ nav ul li {
   }
 
   nav a {
-    margin: 0 7px; /* Reduce margin between navigation links */
+    margin: 0 5px; /* Reduce margin between navigation links */
   }
 
   .App-header {
