@@ -201,6 +201,7 @@ An additional thing to consider, since the off-market sector has never been full
         <br></br> 
         
         <h3>Support Our Growth</h3>
+        <br></br>
         <p>As a bare minimum, we're aiming for $45,000 in funding to reach profitability - assuming it takes six months for our first deals to close. Once we're a few months in, we're looking to raise upwards of 1.5M from VCs to start salarying our executives, technical team, increase data aggregation, and onboard more dedicated agents/brokers. We anticipate geometric growth potential after proof of concept - as a disruptive competitor in the real estate brokerage industry, and are working on streamlining the lead procurement process to automatically convert vast amounts of real estate data into valuable leads, without much manual effort.</p>
         <ul>
           {/* <li>Lead conversion rate: ~1%</li>

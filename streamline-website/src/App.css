@@ -287,24 +287,11 @@ nav ul li {
     font-size: 3vw; /* Adjust font size for mobile */
   }
 
-  .section {
-    padding: 20px 10px; /* Reduce padding */
-  }
-
   .section p,
   .why-winning-team p,
   .section ul,
   .why-winning-team ul {
     max-width: 90%;
-  }
-
-  .team-container, .advisor-container {
-    display: block;
-  }
-
-  .card {
-    max-width: none;
-    margin: 20px auto; /* Center the cards */
   }
 
   #contact p {
@@ -321,28 +308,16 @@ nav ul li {
 
 /* Ensure image width matches paragraph width on narrower web views */
 @media (min-width: 769px) and (max-width: 1200px) {
-  .section-content {
-    max-width: 90%;
-  }
-
   #fundraising img,
   #roadmap img {
-    max-width: 100%; /* Ensure images don't get smaller than paragraphs */
+    max-width: 90%; /* Ensure images don't get smaller than paragraphs */
   }
 }
 
 /* Ensuring a reasonable size for full-sized web view */
 @media (min-width: 1201px) {
-  .section {
-    padding: 50px 20px;
-  }
-
-  .section-content {
-    max-width: 800px;
-  }
-
   #fundraising img,
   #roadmap img {
-    max-width: 100%; /* Ensure images don't get too large on full-sized web view */
+    max-width: 50%; /* Ensure images don't get too large on full-sized web view */
   }
 }
