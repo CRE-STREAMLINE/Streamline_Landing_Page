@@ -26,7 +26,8 @@ function App() {
         <nav>
           <a href="#about">About</a>
           <a href="#problem">Problem</a>
-÷          <a href="#team">Team</a>
+          {/* <a href="#solution">Solution</a> */}
+          <a href="#team">Team</a>
           {/* <a href="#advisors">Advisors</a> */}
           <a href="#fundraising">Fundraising</a>
           <a href="#blog">Blog</a>
