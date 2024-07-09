@@ -4,7 +4,7 @@ import './App.css';
 // Imgur image URLs
 const logo = "https://imgur.com/usOsLpl.jpg";
 const background = "https://imgur.com/yFesOhI.jpg";
-const solution = "https://imgur.com/YnL7S12.jpg";
+// const solution = "https://imgur.com/YnL7S12.jpg";
 const fundraising = "https://imgur.com/0jSo3t2.jpg";
 const roadmap = "https://imgur.com/tXywojY.jpg";
 const vasilios = "https://imgur.com/VF5N3e1.jpg";
@@ -86,11 +86,11 @@ Once Streamline’s first deal is matched and closed in the retail sector of Hou
 An additional thing to consider, since the off-market sector has never been fully mapped out, we don't know how big it is and how many potential transactions remain unaccounted for. </p>
       </section>
 
-      <section id="solution" className="section">
+      {/* <section id="solution" className="section">
         <h2>Our Innovative Solution</h2>
         <img src={solution} alt="Solution Image" />
         <p>Our CRM-integrated matching platform aggregates data, captures buy and sell objectives, and matches them based on comparable criteria. Our brokers then negotiate and close deals, ensuring efficient transactions.</p>
-      </section>
+      </section> */}
 
       <section id="team" className="section">
         <h2>Meet the Team</h2>
@@ -241,7 +241,7 @@ An additional thing to consider, since the off-market sector has never been full
         <p>Phone: 516.902.5167</p>
       </section>
 
-      <section id="newsletter" className="section">
+      {/* <section id="newsletter" className="section">
         <h2>Sign Up for Our Newsletter</h2>
         <div className="form-container">
           <form action="https://formspree.io/YOUR_FORM_ID" method="POST">
@@ -258,7 +258,7 @@ An additional thing to consider, since the off-market sector has never been full
             <button type="submit">Submit</button>
           </form>
         </div>
-      </section>
+      </section> */}
 
       <footer className="footer">
         <p>© 2024 Kambouras Management inc. All rights reserved.</p>
