@@ -54,6 +54,7 @@ function App() {
 
       <section id="about" className="section">
         <h2>Why Streamline?</h2>
+        <br></br>
         <p>Back in 2020, founder and CEO Vasilios Kambouras moved to Houston, Texas to manage a substantial CRE portfolio of shopping centers. 
 
 Being involved on the transaction side, he got an inside look at his principles off-market strategy - trading like-kind properties in the same region.
@@ -74,6 +75,7 @@ Once Streamline’s first deal is matched and closed in the retail sector of Hou
 
       <section id="problem" className="section">
         <h2>The Challenge in Off-Market Commercial Real Estate</h2>
+        <br></br>
         <p>The current market lacks an efficient way to find and connect non-institutional buyers with available off-market properties, leading to missed opportunities and unrealized potential.</p>
         <ul>
           <li>Real estate owners don’t list off-market available properties.</li>
