@@ -1,4 +1,14 @@
 /* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -256,6 +266,10 @@ nav ul li {
     margin: 10px 0;
   }
 
+  nav a {
+    margin: 0 7px; /* Reduce margin between navigation links */
+  }
+
   .App-header {
     font-size: calc(8px + 2vmin);
   }
@@ -271,6 +285,10 @@ nav ul li {
 
   .hero p {
     font-size: 3vw; /* Adjust font size for mobile */
+  }
+
+  .section {
+    padding: 20px 10px; /* Reduce padding */
   }
 
   .section p,
@@ -294,16 +312,28 @@ nav ul li {
 
 /* Ensure image width matches paragraph width on narrower web views */
 @media (min-width: 769px) and (max-width: 1200px) {
+  .section-content {
+    max-width: 90%;
+  }
+
   #fundraising img,
   #roadmap img {
-    max-width: 90%; /* Ensure images don't get smaller than paragraphs */
+    max-width: 100%; /* Ensure images don't get smaller than paragraphs */
   }
 }
 
 /* Ensuring a reasonable size for full-sized web view */
 @media (min-width: 1201px) {
+  .section {
+    padding: 50px 20px;
+  }
+
+  .section-content {
+    max-width: 800px;
+  }
+
   #fundraising img,
   #roadmap img {
-    max-width: 50%; /* Ensure images don't get too large on full-sized web view */
+    max-width: 100%; /* Ensure images don't get too large on full-sized web view */
   }
 }
