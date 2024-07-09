@@ -120,7 +120,7 @@ nav ul li {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin: 20px;
   padding: 20px;
-  max-width: 300px;
+  max-width: 350px; /* Increased max-width to make cards wider */
 }
 
 .card img {
@@ -296,6 +296,15 @@ nav ul li {
   .section ul,
   .why-winning-team ul {
     max-width: 90%;
+  }
+
+  .team-container, .advisor-container {
+    display: block;
+  }
+
+  .card {
+    max-width: none;
+    margin: 20px auto; /* Center the cards */
   }
 
   #contact p {
