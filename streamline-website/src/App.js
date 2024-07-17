@@ -6,7 +6,7 @@ const logo = "https://imgur.com/usOsLpl.jpg";
 const background = "https://imgur.com/yFesOhI.jpg";
 // const solution = "https://imgur.com/YnL7S12.jpg";
 const fundraising = "https://imgur.com/0jSo3t2.jpg";
-const roadmap = "https://imgur.com/tXywojY.jpg";
+const roadmap = "https://imgur.com/JdTwo1e.jpg";
 const vasilios = "https://imgur.com/VF5N3e1.jpg";
 const scott = "https://imgur.com/Iymy1Wv.jpg";
 const brian = "https://imgur.com/8aIAkqF.jpg";
@@ -228,7 +228,7 @@ An additional thing to consider, since the off-market sector has never been full
         <h2>Blog</h2>
         <div className="blog-post">
           <h3>Exciting Milestone: Testing and Production</h3>
-          <p><small>Posted on July 8, 2024</small></p>
+          <p><small>Posted on July 16, 2024</small></p>
           <p>We just finished testing the application and now going into production with our Chief Operating Broker, Scott Landers as the first user on the platform.</p>
         </div>
         {/* <div className="blog-post">
