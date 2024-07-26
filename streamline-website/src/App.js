@@ -228,7 +228,7 @@ An additional thing to consider, since the off-market sector has never been full
         <h2>Blog</h2>
         <div className="blog-post">
           <h3>Exciting Milestone: Testing and Production</h3>
-          <p><small>Posted on July 16, 2024</small></p>
+          <p><small>Posted on July 26, 2024</small></p>
           <p>We just finished testing the application and now going into production with our Chief Operating Broker, Scott Landers as the first user on the platform.</p>
         </div>
         {/* <div className="blog-post">
