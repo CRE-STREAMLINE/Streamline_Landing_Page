@@ -125,7 +125,7 @@ An additional thing to consider, since the off-market sector has never been full
             <img src={brian} alt="Brian Chetram" />
             <h3>Brian Chetram (CTO)</h3>
             <ul>
-              <li>Global head of technology at leading financial & trading institution, responsible for the strategic vision and build out of next-generation platforms (+$8 Billion valuation - Series D)</li>
+              <li>Global head of technology at leading financial & trading institution, responsible for the strategic vision and build out of next-generation platforms</li>
               <li>Thomson Reuters (Acquired FXAll) Sr. Director / Head of Trading Tech.</li>
               <li>VP/Sr. Technical leadership: Goldman Sachs, JP Morgan Chase, Bear Stearns, Morgan Stanley, Bloomberg (Chief Architect)</li>
               <li>MIT Class of `48 Scholarship</li>
