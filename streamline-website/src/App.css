@@ -20,7 +20,7 @@ body, html {
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh; /* Take up the entire viewport height */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +33,7 @@ body, html {
 nav {
   margin: 20px 0;
   position: absolute;
-  bottom: 20px; /* Position navigation at the bottom of the header */
+  bottom: 20px;
 }
 
 nav a {
@@ -55,7 +55,7 @@ nav ul li {
   padding: 50px 20px;
   color: white;
   background: url('https://imgur.com/yFesOhI.jpg') no-repeat center center/cover;
-  height: 100vh; /* Take up the entire viewport height */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,23 +64,23 @@ nav ul li {
 }
 
 .hero h1 {
-  font-size: 4vw; /* Adjust font size */
-  margin: 0.2em 0; /* Adjust margin to control spacing */
-  width: 100%; /* Ensure each line takes up most of the page horizontally */
+  font-size: 4vw;
+  margin: 0.2em 0;
+  width: 100%;
 }
 
 .hero p {
-  font-size: 2vw; /* Adjust font size */
-  width: 100%; /* Ensure each line takes up most of the page horizontally */
+  font-size: 2vw;
+  width: 100%;
 }
 
 .cta {
   color: #61dafb;
   text-decoration: none;
   border: 1px solid #61dafb;
-  padding: 15px 30px; /* Increase padding to make the button larger */
+  padding: 15px 30px;
   border-radius: 5px;
-  font-size: 1.5em; /* Increase font size */
+  font-size: 1.5em;
 }
 
 .section {
@@ -90,27 +90,27 @@ nav ul li {
   align-items: center;
 }
 
-/* Ensure image width matches paragraph width on narrower web views */
 .section img {
   max-width: 800px;
   width: 100%;
   height: auto;
   margin-bottom: 20px;
-  transition: width 0.3s ease-in-out, max-width 0.3s ease-in-out; /* Smooth transition */
+  transition: width 0.3s ease-in-out, max-width 0.3s ease-in-out;
 }
 
-/* Limit the width of paragraphs for readability */
 .section p {
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
-  width: 100%; /* Ensure paragraphs take up full width */
+  width: 100%;
 }
 
-.team-container, .advisor-container {
+.team-container, .advisor-container, .director-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width: 100%; 
+  margin: 0 auto;
 }
 
 .card {
@@ -120,7 +120,8 @@ nav ul li {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin: 20px;
   padding: 20px;
-  max-width: 350px; /* Increased max-width to make cards wider */
+  flex: 1; 
+  max-width: 300px;
 }
 
 .card img {
@@ -132,7 +133,6 @@ nav ul li {
   margin-top: 10px;
 }
 
-/* Ensure bullet points are displayed correctly */
 .card ul {
   list-style-type: disc;
   padding-left: 20px;
@@ -155,12 +155,11 @@ nav ul li {
   margin-bottom: 20px;
 }
 
-/* Limit the width of the paragraph under "why this is a winning team" */
 .why-winning-team p {
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
-  width: 100%; /* Ensure paragraphs take up full width */
+  width: 100%;
 }
 
 .form-container {
@@ -217,12 +216,11 @@ nav ul li {
   color: gray;
 }
 
-/* Centered and limited width for unordered lists in specific sections */
 .section ul,
 .why-winning-team ul {
   max-width: 800px;
   margin: 0 auto;
-  padding-left: 1em; /* Adjust padding to align bullets with text */
+  padding-left: 1em;
   text-align: left;
   list-style-position: inside;
 }
@@ -267,7 +265,7 @@ nav ul li {
   }
 
   nav a {
-    margin: 0 5px; /* Reduce margin between navigation links */
+    margin: 0 5px;
   }
 
   .App-header {
@@ -276,15 +274,15 @@ nav ul li {
 
   .hero {
     padding: 20px;
-    font-size: calc(8px + 4vmin); /* Adjust font size for mobile */
+    font-size: calc(8px + 4vmin);
   }
 
   .hero h1 {
-    font-size: 6vw; /* Adjust font size for mobile */
+    font-size: 6vw;
   }
 
   .hero p {
-    font-size: 3vw; /* Adjust font size for mobile */
+    font-size: 3vw;
   }
 
   .section p,
@@ -298,19 +296,51 @@ nav ul li {
     max-width: 90%;
   }
 
-  /* Specific styles for images under fundraising and roadmap */
-  #fundraising img,
-  #roadmap img {
-    max-width: 90%; /* Limit the width to 90% to match paragraph width */
-    height: auto;
+  .team-container, .advisor-container, .director-container {
+    justify-content: center;
+    flex-wrap: wrap;
   }
+
+  .card {
+    margin: 10px;
+    max-width: 300px;
+  }
+
+  .card img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .card h3 {
+    font-size: 0.8em; /* Smaller text */
+  }
+
+  .card ul {
+    font-size: 0.1em; /* Smaller text */
+  }
+
+  .card p {
+    font-size: 0.8em; /* Smaller text */
+  }
+
+  /* Display two team photos per row on mobile */
+  .team-container, .advisor-container, .director-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  /* Directors and Additional Members - 3 per row */
+  /* .director-container {
+    grid-template-columns: repeat(3, 1fr); */
+  /* } */
 }
 
 /* Ensure image width matches paragraph width on narrower web views */
 @media (min-width: 769px) and (max-width: 1200px) {
   #fundraising img,
   #roadmap img {
-    max-width: 90%; /* Ensure images don't get smaller than paragraphs */
+    max-width: 90%;
   }
 }
 
@@ -318,6 +348,6 @@ nav ul li {
 @media (min-width: 1201px) {
   #fundraising img,
   #roadmap img {
-    max-width: 50%; /* Ensure images don't get too large on full-sized web view */
+    max-width: 50%;
   }
 }

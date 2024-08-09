@@ -4,18 +4,21 @@ import './App.css';
 // Imgur image URLs
 const logo = "https://imgur.com/usOsLpl.jpg";
 const background = "https://imgur.com/yFesOhI.jpg";
-// const solution = "https://imgur.com/YnL7S12.jpg";
 const fundraising = "https://imgur.com/0jSo3t2.jpg";
 const roadmap = "https://imgur.com/JdTwo1e.jpg";
 const vasilios = "https://imgur.com/VF5N3e1.jpg";
-const scott = "https://imgur.com/Iymy1Wv.jpg";
-const brian = "https://imgur.com/8aIAkqF.jpg";
-const dylan = "https://imgur.com/OuJAtyV.jpg";
+const scott = "https://imgur.com/N8vSJUS.jpg";
+const brian = "https://imgur.com/ur5ArT9.jpg";
+const dylan = "https://imgur.com/cIKvdKT.jpg";
 const larry = "https://imgur.com/XvIOB5N.jpg";
 const tony = "https://imgur.com/v4xL6pk.jpg";
 const kim = "https://imgur.com/XnKzuoz.jpg";
-
-
+const director1 = "https://imgur.com/ZDIk5jy.jpg";
+const director2 = "https://imgur.com/UTB6VkB.jpg";
+const director3 = "https://imgur.com/director3.jpg";
+const member1 = "https://imgur.com/member1.jpg";
+const member2 = "https://imgur.com/member2.jpg";
+const member3 = "https://imgur.com/member3.jpg";
 
 function App() {
   return (
@@ -26,9 +29,7 @@ function App() {
         <nav>
           <a href="#about">About</a>
           <a href="#problem">Problem</a>
-          {/* <a href="#solution">Solution</a> */}
           <a href="#team">Team</a>
-          {/* <a href="#advisors">Advisors</a> */}
           <a href="#fundraising">Fundraising</a>
           <a href="#blog">Blog</a>
           <a href="#contact">Contact</a>
@@ -36,25 +37,13 @@ function App() {
       </header>
 
       <section className="hero" style={{ backgroundImage: `url(${background})` }}>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
         <h1>Mapping and connecting off-market real estate</h1>
         <h1>buyers and sellers to broker exclusive deals.</h1>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
         <a href="#about" className="cta">Learn More</a>
       </section>
 
       <section id="about" className="section">
         <h2>Why Streamline?</h2>
-        <br></br>
         <p>Back in 2020, founder and CEO Vasilios Kambouras moved to Houston, Texas to manage a substantial CRE portfolio of shopping centers. 
 
 Being involved on the transaction side, he got an inside look at his principles off-market strategy - trading like-kind properties in the same region.
@@ -62,12 +51,11 @@ Being involved on the transaction side, he got an inside look at his principles 
 If other players were using the same strategy.. then buy/sell motives could be onboarded into a matching engine to streamline deals. 
  
 However, there was no platform to find buyer motives and available off-market properties, making it difficult to efficiently connect them.</p>
-<br></br>
-<p>Vasilios and his sales partner, Dylan Blue went on to found Streamline, bringing together an incredible team of industry experts. 
+        <p>Vasilios and his sales partner, Dylan Blue went on to found Streamline, bringing together an incredible team of industry experts. 
 
 They began development on a CRM-integrated matching platform to find, capture and connect off-market buyers and sellers. 
 
-Going into production, the startup is preparing  for major traction and proof of concept.
+Going into production, the startup is preparing for major traction and proof of concept.
 
 Once Streamline’s first deal is matched and closed in the retail sector of Houston, the process can be implemented across the US.
 </p>
@@ -75,27 +63,19 @@ Once Streamline’s first deal is matched and closed in the retail sector of Hou
 
       <section id="problem" className="section">
         <h2>The Challenge in Off-Market Commercial Real Estate</h2>
-        <br></br>
         <p>The current market lacks an efficient way to find and connect non-institutional buyers with available off-market properties, leading to missed opportunities and unrealized potential.</p>
         <ul>
           <li>Real estate owners don’t list off-market available properties.</li>
           <li>Real estate platforms don’t show buyer motives.</li>
           <li>No one has mapped out and matched an entire real estate market.</li>
         </ul>
-        <br></br>
         <p>You can go on just about any widely used real estate platform - you won't find any publicly listed buyers. As for available off-market properties, the whole point is that they're off market so the only way you would find out is through a real estate agent.. but even they don't know all the available off-market properties in a given niche market. The limited exposure results in buyers and sellers who could be in the same market, but may never find each other. 
 
 An additional thing to consider, since the off-market sector has never been fully mapped out, we don't know how big it is and how many potential transactions remain unaccounted for. </p>
       </section>
 
-      {/* <section id="solution" className="section">
-        <h2>Our Innovative Solution</h2>
-        <img src={solution} alt="Solution Image" />
-        <p>Our CRM-integrated matching platform aggregates data, captures buy and sell objectives, and matches them based on comparable criteria. Our brokers then negotiate and close deals, ensuring efficient transactions.</p>
-      </section> */}
-
       <section id="team" className="section">
-        <h2>Meet the Team</h2>
+        <h2>Executive team</h2>
         <div className="team-container">
           <div className="card">
             <img src={vasilios} alt="Vasilios Kambouras" />
@@ -108,19 +88,18 @@ An additional thing to consider, since the off-market sector has never been full
             <br></br>
             <p>Vasilios is a seasoned executive with almost a decade of experience in commercial real estate, successfully managing substantial CRE portfolios and leading brokerage sales teams.</p>
           </div>
-          <div className="card">
-            <img src={scott} alt="Scott Landers" />
-            <h3>Scott Landers (Operating Broker)</h3>
+          {/* <div className="card">
+            <img src={scott} alt="Operating Broker" />
+            <h3>*Onboarding* (Operating Broker)</h3>
             <ul>
-              <li>$1 Billion sourced and closed in Commercial real estate sales</li>
-              <li>Capview Partners: VP of Real Estate Created a scalable acquisitions platform for investment funds.</li>
-              <li>Kodiak Capital Advisors:
-                Exec. VP Handled all aspects of the full-cycle investment process for TX portfolio </li>
-              <li>Gaedeke Holdings: 
-              Vice President & Director of Acquisitions/Disposition</li>
-            </ul>
-            {/* <p>Scott has extensive experience in commercial real estate sales, with a proven track record of closing high-value deals. His expertise and leadership are invaluable to our team.</p> */}
-          </div>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li> 
+              </li>
+            </ul> 
+            <p>Scott has extensive experience in commercial real estate sales, with a proven track record of closing high-value deals. His expertise and leadership are invaluable to our team.</p> 
+          </div> */}
           <div className="card">
             <img src={brian} alt="Brian Chetram" />
             <h3>Brian Chetram (CTO)</h3>
@@ -145,10 +124,11 @@ An additional thing to consider, since the off-market sector has never been full
             {/* <p>Dylan is a dynamic sales agent with a knack for closing deals. His passion for real estate and dedication to clients set him apart in the industry.</p> */}
           </div>
         </div>
-      {/* </section>
+     {/* </section>
 
-      <section id="advisors" className="section">
-        <h2>Our Advisors</h2> */}
+      <section id="advisors" className="section"> */}
+      <br></br>
+        <h2>Our Advisors</h2>
         <div className="advisor-container">
           <div className="card">
             <img src={larry} alt="Larry Haber" />
@@ -189,54 +169,108 @@ An additional thing to consider, since the off-market sector has never been full
           </div>
         </div>
         <div className="why-winning-team">
-          <h3>Why This is a Winning Team</h3>
-          <p>This is a team that knows how to execute. Co-founders, Vasilios and Dylan have managed substantial commercial real estate, providing deep industry insight and leadership. Chief Operating Broker Scott Landers brings a track record of $1 billion in commercial real estate sales and experience in creating a scalable acquisition platform. CTO Brian Chetram's expertise in developing next-gen tech platforms at leading financial institutions ensures a solid technical foundation. While Tony Konstant has also closed a tremendous amount of commercial real estate ($2.5 billion), his unique experience at institutional and tech-driven real estate startups align perfectly with Streamline. With Kim Petry's financial acumen, demonstrated by her early involvement at successful startups like RTFKT (~$1 billion acquisition by Nike) - she knows how to take a team from 0 to 100. Larry Haber is a widely respected legal advisor in the CRE space,  ensuring best legal oversight for Streamline.</p>
+          <h3>The Right Leadership</h3>
+          <p>This is a team that knows how to execute. Co-founders, Vasilios and Dylan have managed substantial commercial real estate, providing deep industry insight and leadership. CTO Brian Chetram's expertise in developing next-gen tech platforms at leading financial institutions ensures a solid technical foundation. While Tony Konstant has also closed a tremendous amount of commercial real estate ($2.5 billion), his unique experience at institutional and tech-driven real estate startups align perfectly with Streamline. With Kim Petry's financial acumen, demonstrated by her early involvement at successful startups like RTFKT (~$1 billion acquisition by Nike) - she knows how to take a team from 0 to 100. Larry Haber is a widely respected legal advisor in the CRE space,  ensuring best legal oversight for Streamline.</p>
         </div>
+      
+{/* <br></br>
+<br></br>
+        <h2>Additional Members</h2>
+        <div className="director-container">
+          <div className="card">
+            <img src={director1} alt="Director 1" />
+            <h3>Nathaniel Eliot
+            <br></br> (Director of Infastructure)</h3>
+
+            <ul>
+              <li>Director 1 Role Description</li>
+              <li>Experience or Key Achievements</li>
+              <li>Additional Information</li>
+            </ul>
+          </div>
+
+          <div className="card">
+            <img src={director2} alt="Director 2" />
+            <h3>Zach Lawless 
+              <br></br> (Director of RE Data)</h3>
+            <ul>
+              <li>Director 2 Role Description</li>
+              <li>Experience or Key Achievements</li>
+              <li>Additional Information</li>
+            </ul>
+          </div>
+          {/* <div className="card">
+            <img src={director3} alt="Director 3" />
+            <h3>Director 3</h3>
+            <ul>
+              <li>Director 3 Role Description</li>
+              <li>Experience or Key Achievements</li>
+              <li>Additional Information</li>
+            </ul>
+          </div> */}
+        {/* </div>
+        <div className="director-container">
+          <div className="card">
+            <img src={member1} alt="Dennis " />
+            <h3>Denis Rozhnov
+              <br></br> Sr. Data Manager
+            </h3>
+            <ul>
+              <li>Employee #3 at Streamline</li>
+              <li></li>
+              <li>Double major in CS and Mathamatics</li>
+            </ul>
+          </div>
+          <div className="card">
+            <img src={member2} alt="Member 2" />
+            <h3>Hector Song 
+              <br></br> Sr. Full Stack Developer
+            </h3>
+            <ul>
+            <li>Sr. Software Engineer at Nobias: Led the successful implementation of SaaS-based CRM systems</li>
+              <li>Full Stack Developer at Square: Responsible for backend development of fintech software</li>
+              <li>Software Intern @ Google</li>
+            </ul>
+          </div>
+          <div className="card">
+            <img src={member3} alt="Member 3" />
+            <h3>Robert Mitchell
+              <br></br> Sr. Full Stack Developer
+            </h3>
+            <ul>
+              <li>Member 3 Role Description</li>
+              <li>Experience or Key Achievements</li>
+              <li>Additional Information</li>
+            </ul>
+          </div>
+        </div> */} */}
       </section>
+     
 
       <section id="fundraising" className="section">
         <h2>Financial Projections</h2>
+        <br></br>
         <img src={fundraising} alt="Fundraising Image" />
         <p>Based on a $2.5M average deal size and 4% commission in Texas retail, with 88% of total commission being netted to the company - we would make $88,000 per deal at a cost of roughly $1,000 per deal. Our first year of revenue depends on how many leads can be converted into deals, price-point, and commission rate. Once traction is established, it comes down to how fast we can bring on more data and increase our sales team. If we can achieve around a 1% conversion rate (Which should increase as more buy/sell criteria is aggregated into the CRM-matching engine), it's possible to achieve over 70M net revenue in a 1 year timeframe.</p>
-        
-        <br></br>
-        <br></br> 
-        
-        <h3>Support Our Growth</h3>
-        <br></br>
-        <p>As a bare minimum, we're aiming for $45,000 in funding to reach profitability - assuming it takes six months for our first deals to close. Once we're a few months in, we're looking to raise upwards of 1.5M from VCs to start salarying our executives, technical team, increase data aggregation, and onboard more dedicated agents/brokers. We anticipate geometric growth potential after proof of concept - as a disruptive competitor in the real estate brokerage industry, and are working on streamlining the lead procurement process to automatically convert vast amounts of real estate data into valuable leads, without much manual effort.</p>
-        <ul>
-          {/* <li>Lead conversion rate: ~1%</li>
-          <li>Average deal size: $2.5M</li>
-          <li>Commission rate: 4%</li>
-          <li>Net capture: 88% of total commission</li> */}
-        </ul>     
       </section>
 
+      <section id="roadmap" className="section">
+        <h2>Road Map</h2>
+        <br></br>
+        <img src={roadmap} alt="Roadmap Image" />
+        <p>Months 1-4: Going into production and successfully identifying first matches on our platform. Accounting for typical transaction timeframes, we anticipate closing in Month 5 (break-even point).</p>
+        <p>Post Month 5: We’ll scale by re-investing further into data aggregation and increased sales force. As our sales team qualifies more buyers and available off-market properties, our deal conversion rate will improve. Buyer-seller match probability increases as transactional information is added to the matching engine.</p>
+        <p>Upon proof of concept, we’ll begin hiring management focused on ramping up sales force and data team. Ultimately, we aim to capture every off-market buyer and seller.</p>
+      </section>
 
-        <section id="roadmap" className="section">
-          <h2>Road Map</h2>
-          <img src={roadmap} alt="Roadmap Image" />
-          <p>Months 1-4: Going into production and successfully identifying first matches on our platform. Accounting for typical transaction timeframes, we anticipate closing in Month 5 (break-even point).</p>
-          <br></br>
-          <p>Post Month 5: We’ll scale by re-investing further into data aggregation and increased sales force. As our sales team qualifies more buyers and available off-market properties, our deal conversion rate will improve. Buyer-seller match probability increases as transactional information is added to the matching engine.</p>
-          <br></br>
-          <p>Upon proof of concept, we’ll begin hiring management focused on ramping up sales force and data team. Ultimately, we aim to capture every off-market buyer and seller.</p>
-        </section>
-
-      <section id="blog" className="section">
+      {/* <section id="blog" className="section">
         <h2>Blog</h2>
         <div className="blog-post">
           <h3>Exciting Milestone: Testing and Production</h3>
           <p><small>Posted on July 26, 2024</small></p>
           <p>We just finished testing the application and now going into production with our Chief Operating Broker, Scott Landers as the first user on the platform.</p>
         </div>
-        {/* <div className="blog-post">
-          <h3>Streamlining Off-Market Real Estate Transactions</h3>
-          <p><small>Posted on July 10, 2024</small></p>
-          <p>We're pioneering a scalable closed platform to streamline off-market real estate transactions. Our secret sauce is the ability to procure targeted leads from property data, capture and onboard buyer/seller motives, and broker untapped value.</p>
-        </div> */}
-      </section>
+      </section> */}
 
       <section id="contact" className="section">
         <h2>Contact Us</h2>
@@ -244,32 +278,13 @@ An additional thing to consider, since the off-market sector has never been full
         <p>Phone: 516.902.5167</p>
       </section>
 
-      {/* <section id="newsletter" className="section">
-        <h2>Sign Up for Our Newsletter</h2>
-        <div className="form-container">
-          <form action="https://formspree.io/YOUR_FORM_ID" method="POST">
-            <label htmlFor="name">Full Name</label>
-            <input type="text" id="name" name="name" required />
-            <label htmlFor="company">Company</label>
-            <input type="text" id="company" name="company" required />
-            <label htmlFor="investorType">Investor Type</label>
-            <input type="text" id="investorType" name="investorType" required />
-            <label htmlFor="email">Email</label>
-            <input type="email" id="email" name="email" required />
-            <label htmlFor="phone">Phone Number (optional)</label>
-            <input type="tel" id="phone" name="phone" />
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-      </section> */}
-
       <footer className="footer">
         <p>© 2024 Kambouras Management inc. All rights reserved.</p>
-        <p>CRE Streamline Inc is owned and operated by Kambouras Management Inc, registered corperations in Texas, USA.</p>
-        {/* <p>All rights to this website and its content are owned by Kambouras Management Inc.</p> */}
+        <p>CRE Streamline Inc is owned and operated by Kambouras Management Inc, registered corporations in Texas, USA.</p>
       </footer>
     </div>
   );
 }
 
 export default App;
+
