@@ -173,7 +173,7 @@ An additional thing to consider, since the off-market sector has never been full
           <p>This is a team that knows how to execute. Co-founders, Vasilios and Dylan have managed substantial commercial real estate, providing deep industry insight and leadership. CTO Brian Chetram's expertise in developing next-gen tech platforms at leading financial institutions ensures a solid technical foundation. While Tony Konstant has also closed a tremendous amount of commercial real estate ($2.5 billion), his unique experience at institutional and tech-driven real estate startups align perfectly with Streamline. With Kim Petry's financial acumen, demonstrated by her early involvement at successful startups like RTFKT (~$1 billion acquisition by Nike) - she knows how to take a team from 0 to 100. Larry Haber is a widely respected legal advisor in the CRE space,  ensuring best legal oversight for Streamline.</p>
         </div>
       
-{/* <br></br>
+ <br></br>
 <br></br>
         <h2>Additional Members</h2>
         <div className="director-container">
