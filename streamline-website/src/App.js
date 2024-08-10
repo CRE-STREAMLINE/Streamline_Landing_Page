@@ -75,106 +75,108 @@ An additional thing to consider, since the off-market sector has never been full
       </section>
 
       <section id="team" className="section">
-        <h2>Executive team</h2>
-        <div className="team-container">
-          <div className="card">
-            <img src={vasilios} alt="Vasilios Kambouras" />
-            <h3>Vasilios Kambouras (CEO)</h3>
-            <ul>
-              <li>VP for $300M AUM CRE Portfolio</li>
-              <li>NB Elite Realty: <a href="https://nbeliterealty.com/Vasilios-Kambouras/"> CA Broker</a>* </li>
-              <li>Full-Stack Development Cert.</li>
-            </ul>
-            <br></br>
-            <p>Vasilios is a seasoned executive with almost a decade of experience in commercial real estate, successfully managing substantial CRE portfolios and leading brokerage sales teams.</p>
-          </div>
-          {/* <div className="card">
-            <img src={scott} alt="Operating Broker" />
-            <h3>*Onboarding* (Operating Broker)</h3>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li> 
-              </li>
-            </ul> 
-            <p>Scott has extensive experience in commercial real estate sales, with a proven track record of closing high-value deals. His expertise and leadership are invaluable to our team.</p> 
-          </div> */}
-          <div className="card">
-            <img src={brian} alt="Brian Chetram" />
-            <h3>Brian Chetram (CTO)</h3>
-            <ul>
-              <li>Global head of technology at leading financial & trading institution, responsible for the strategic vision and build out of next-generation platforms</li>
-              <li>Thomson Reuters (Acquired FXAll) Sr. Director / Head of Trading Tech.</li>
-              <li>VP/Sr. Technical leadership: Goldman Sachs, JP Morgan Chase, Bear Stearns, Morgan Stanley, Bloomberg (Chief Architect)</li>
-              <li>MIT Class of `48 Scholarship</li>
+          <h2>Executive team</h2>
+          <div className="team-container">
+            <div className="card">
+              <img src={vasilios} alt="Vasilios Kambouras" />
+              <h3>Vasilios Kambouras (CEO)</h3>
+              <ul>
+                <li>VP for $300M AUM CRE Portfolio</li>
+                <li>NB Elite Realty: <a href="https://nbeliterealty.com/Vasilios-Kambouras/"> CA Broker</a>* </li>
+                <li>Full-Stack Development Cert.</li>
+              </ul>
+              <br></br>
+              <p>Vasilios is a seasoned executive with almost a decade of experience in commercial real estate, successfully managing substantial CRE portfolios and leading brokerage sales teams.</p>
+            </div>
+            {/* <div className="card">
+              <img src={scott} alt="Operating Broker" />
+              <h3>*Onboarding* (Operating Broker)</h3>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li> 
+                </li>
+              </ul> 
+              <p>Scott has extensive experience in commercial real estate sales, with a proven track record of closing high-value deals. His expertise and leadership are invaluable to our team.</p> 
+            </div> */}
+            <div className="card">
+              <img src={brian} alt="Brian Chetram" />
+              <h3>Brian Chetram (CTO)</h3>
+              <ul>
+                <li>Global head of technology at leading financial & trading institution, responsible for the strategic vision and build out of next-generation platforms</li>
+                <li>Thomson Reuters (Acquired FXAll) Sr. Director / Head of Trading Tech.</li>
+                <li>VP/Sr. Technical leadership: Goldman Sachs, JP Morgan Chase, Bear Stearns, Morgan Stanley, Bloomberg (Chief Architect)</li>
+                <li>MIT Class of `48 Scholarship</li>
 
-            </ul>
-            {/* <p>Brian is a technology visionary who has led major projects at FalconX. His technical acumen and strategic thinking drive our innovative solutions.</p> */}
+              </ul>
+              {/* <p>Brian is a technology visionary who has led major projects at FalconX. His technical acumen and strategic thinking drive our innovative solutions.</p> */}
+            </div>
+            <div className="card">
+              <img src={dylan} alt="Dylan Blue" />
+              <h3>Dylan Blue (Founding Partner)</h3>
+              <ul>
+                <li>CRE sales agent +7 years</li>
+                <li>10M+ in sales volume</li>
+                <li>Extensive creative project  management experience</li>
+                <li>BA Marketing & Consumer Psych, St. Joseph's University</li>
+              </ul>
+              {/* <p>Dylan is a dynamic sales agent with a knack for closing deals. His passion for real estate and dedication to clients set him apart in the industry.</p> */}
+            </div>
           </div>
-          <div className="card">
-            <img src={dylan} alt="Dylan Blue" />
-            <h3>Dylan Blue (Founding Partner)</h3>
-            <ul>
-              <li>CRE sales agent +7 years</li>
-              <li>10M+ in sales volume</li>
-              <li>Extensive creative project  management experience</li>
-              <li>BA Marketing & Consumer Psych, St. Joseph's University</li>
-            </ul>
-            {/* <p>Dylan is a dynamic sales agent with a knack for closing deals. His passion for real estate and dedication to clients set him apart in the industry.</p> */}
-          </div>
-        </div>
-     {/* </section>
+            {/* </section>
 
-      <section id="advisors" className="section"> */}
-      <br></br>
-        <h2>Our Advisors</h2>
-        <div className="advisor-container">
-          <div className="card">
-            <img src={larry} alt="Larry Haber" />
-            <h3>Larry Haber (Legal Counsel)</h3>
-            <ul>
-              <li>CRE attorney with 30+ years</li>
-              <li>AGMB Law Managing Partner: Commercial Real Estate Department</li>
-              <li>REality Check: Founder of influential real estate interview series.</li>
-              <li>Co-founded a full service CRE firm, specializing in the development, ownership, management, turn-around and leasing of commercial properties</li>
-            </ul>            
-            {/* <p>Larry is a highly respected attorney with decades of experience in real estate law. His legal expertise provides crucial guidance for our operations.</p> */}
-          </div>
-          <div className="card">
-            <img src={kim} alt="Kim Petry" />
-            <h3>Kim Petry (Financial Advisor)</h3>
-            <ul>
-              <li>Extensive background as an influential CFO for Fortune 100 Companies and startups</li>
-              <li>AMEX: Controller of Global Credit & CFO Corporate Cards</li>
-              <li>Paxos: CFO, raised 300M</li>
-              <li>RTFKT: CFO, ~$1Bn ACQ by Nike</li>
-              <li>CFO for Yuga Labs and Doodles</li>
-            </ul>
-            {/* <p>Kim is an influential CFO with a track record of success in both large corporations and startups. Her financial insights help us navigate complex financial landscapes.</p> */}
-          </div>
-          <div className="card">
-            <img src={tony} alt="Tony Konstant" />
-            <h3>Tony Konstant (Strategy Advisor)</h3>
-            <ul>
-              <li>$2.5 Billion sourced and closed in Commercial real estate sales</li>
-              <li>HoneyBricks: Head of Real Estate  Tokenized Real Estate Startup</li>
-              <li>Ashland Capital: Vice President</li>
-              <li>CRE Portfolio Leadership: LivCor, Magnolia Capital,Tishman Speyer, Waterton Assoc.</li>
-              <li>First non-Phd. selected to represent Dr. Norm Miller and USD at the Real Estate Research Institute</li>
-              <li>USD: MS, Real Estate</li>
+            <section id="advisors" className="section"> */}
+          <br></br>
+          <h2>Our Advisors</h2>
+          <div className="advisor-container">
+            <div className="card">
+              <img src={larry} alt="Larry Haber" />
+              <h3>Larry Haber (Legal Counsel)</h3>
+              <ul>
+                <li>CRE attorney with 30+ years</li>
+                <li>AGMB Law Managing Partner: Commercial Real Estate Department</li>
+                <li>REality Check: Founder of influential real estate interview series.</li>
+                <li>Co-founded a full service CRE firm, specializing in the development, ownership, management, turn-around and leasing of commercial properties</li>
+              </ul>            
+              {/* <p>Larry is a highly respected attorney with decades of experience in real estate law. His legal expertise provides crucial guidance for our operations.</p> */}
+            </div>
+            <div className="card">
+              <img src={kim} alt="Kim Petry" />
+              <h3>Kim Petry (Financial Advisor)</h3>
+              <ul>
+                <li>Extensive background as an influential CFO for Fortune 100 Companies and startups</li>
+                <li>AMEX: Controller of Global Credit & CFO Corporate Cards</li>
+                <li>Paxos: CFO, raised 300M</li>
+                <li>RTFKT: CFO, ~$1Bn ACQ by Nike</li>
+                <li>CFO for Yuga Labs and Doodles</li>
+              </ul>
+              {/* <p>Kim is an influential CFO with a track record of success in both large corporations and startups. Her financial insights help us navigate complex financial landscapes.</p> */}
+            </div>
+            <div className="card">
+              <img src={tony} alt="Tony Konstant" />
+              <h3>Tony Konstant (Strategy Advisor)</h3>
+              <ul>
+                <li>$2.5 Billion sourced and closed in Commercial real estate sales</li>
+                <li>HoneyBricks: Head of Real Estate  Tokenized Real Estate Startup</li>
+                <li>Ashland Capital: Vice President</li>
+                <li>CRE Portfolio Leadership: LivCor, Magnolia Capital,Tishman Speyer, Waterton Assoc.</li>
+                <li>First non-Phd. selected to represent Dr. Norm Miller and USD at the Real Estate Research Institute</li>
+                <li>USD: MS, Real Estate</li>
 
-            </ul>
-            {/* <p>Tony is a strategic mastermind with extensive experience in commercial real estate. His guidance helps shape our strategic direction and growth plans.</p> */}
+              </ul>
+              {/* <p>Tony is a strategic mastermind with extensive experience in commercial real estate. His guidance helps shape our strategic direction and growth plans.</p> */}
+            </div>
           </div>
-        </div>
-        <div className="why-winning-team">
-          <h3>The Right Leadership</h3>
-          <p>This is a team that knows how to execute. Co-founders, Vasilios and Dylan have managed substantial commercial real estate, providing deep industry insight and leadership. CTO Brian Chetram's expertise in developing next-gen tech platforms at leading financial institutions ensures a solid technical foundation. While Tony Konstant has also closed a tremendous amount of commercial real estate ($2.5 billion), his unique experience at institutional and tech-driven real estate startups align perfectly with Streamline. With Kim Petry's financial acumen, demonstrated by her early involvement at successful startups like RTFKT (~$1 billion acquisition by Nike) - she knows how to take a team from 0 to 100. Larry Haber is a widely respected legal advisor in the CRE space,  ensuring best legal oversight for Streamline.</p>
-        </div>
+          <div className="why-winning-team">
+            <h3>The Right Leadership</h3>
+            <p>This is a team that knows how to execute. Co-founders, Vasilios and Dylan have managed substantial commercial real estate, providing deep industry insight and leadership. CTO Brian Chetram's expertise in developing next-gen tech platforms at leading financial institutions ensures a solid technical foundation. While Tony Konstant has also closed a tremendous amount of commercial real estate ($2.5 billion), his unique experience at institutional and tech-driven real estate startups align perfectly with Streamline. With Kim Petry's financial acumen, demonstrated by her early involvement at successful startups like RTFKT (~$1 billion acquisition by Nike) - she knows how to take a team from 0 to 100. Larry Haber is a widely respected legal advisor in the CRE space,  ensuring best legal oversight for Streamline.</p>
+          </div>
       
- <br></br>
-<br></br>
+      </section>
+
+          {/* <br></br>
+          <br></br>
         <h2>Additional Members</h2>
         <div className="director-container">
           <div className="card">
@@ -244,7 +246,8 @@ An additional thing to consider, since the off-market sector has never been full
             </ul>
           </div>
         </div> */}
-      </section>
+
+      
      
 
       <section id="fundraising" className="section">
