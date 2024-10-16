@@ -250,12 +250,12 @@ An additional thing to consider, since the off-market sector has never been full
       
      
 
-      <section id="fundraising" className="section">
+      {/* <section id="fundraising" className="section">
         <h2>Financial Projections</h2>
         <br></br>
         <img src={fundraising} alt="Fundraising Image" />
         <p>Based on a $2.5M average deal size and 4% commission in Texas retail, with 88% of total commission being netted to the company - we would make $88,000 per deal at a cost of roughly $1,000 per deal. Our first year of revenue depends on how many leads can be converted into deals, price-point, and commission rate. Once traction is established, it comes down to how fast we can bring on more data and increase our sales team. If we can achieve around a 1% conversion rate (Which should increase as more buy/sell criteria is aggregated into the CRM-matching engine), it's possible to achieve over 70M net revenue in a 1 year timeframe.</p>
-      </section>
+      </section> */}
 
       <section id="roadmap" className="section">
         <h2>Road Map</h2>
