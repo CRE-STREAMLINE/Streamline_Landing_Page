@@ -4,7 +4,7 @@ import './App.css';
 // Imgur image URLs
 const logo = "https://imgur.com/usOsLpl.jpg";
 const background = "https://imgur.com/yFesOhI.jpg";
-const fundraising = "https://imgur.com/0jSo3t2.jpg";
+// const fundraising = "https://imgur.com/0jSo3t2.jpg";
 const roadmap = "https://imgur.com/JdTwo1e.jpg";
 const vasilios = "https://imgur.com/VF5N3e1.jpg";
 const scott = "https://imgur.com/N8vSJUS.jpg";
@@ -13,12 +13,12 @@ const dylan = "https://imgur.com/cIKvdKT.jpg";
 const larry = "https://imgur.com/XvIOB5N.jpg";
 const tony = "https://imgur.com/v4xL6pk.jpg";
 const kim = "https://imgur.com/XnKzuoz.jpg";
-const director1 = "https://imgur.com/ZDIk5jy.jpg";
-const director2 = "https://imgur.com/UTB6VkB.jpg";
-const director3 = "https://imgur.com/director3.jpg";
-const member1 = "https://imgur.com/member1.jpg";
-const member2 = "https://imgur.com/member2.jpg";
-const member3 = "https://imgur.com/member3.jpg";
+// const director1 = "https://imgur.com/ZDIk5jy.jpg";
+// const director2 = "https://imgur.com/UTB6VkB.jpg";
+// const director3 = "https://imgur.com/director3.jpg";
+// const member1 = "https://imgur.com/member1.jpg";
+// const member2 = "https://imgur.com/member2.jpg";
+// const member3 = "https://imgur.com/member3.jpg";
 
 function App() {
   return (
@@ -280,6 +280,7 @@ An additional thing to consider, since the off-market sector has never been full
         <p>Email: <a href="mailto:Streamline@kmgmt.co">Streamline@kmgmt.co</a></p>
         <p>Phone: 516.902.5167</p>
       </section>
+      <p>Office: 5511 PARKCREST DR. SUITE 103 AUSTIN, TX 78731</p>
 
       <footer className="footer">
         <p>© 2024 Kambouras Management inc. All rights reserved.</p>
