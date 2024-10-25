@@ -7,7 +7,7 @@ const background = "https://imgur.com/yFesOhI.jpg";
 // const fundraising = "https://imgur.com/0jSo3t2.jpg";
 const roadmap = "https://imgur.com/JdTwo1e.jpg";
 const vasilios = "https://imgur.com/VF5N3e1.jpg";
-const scott = "https://imgur.com/N8vSJUS.jpg";
+// const scott = "https://imgur.com/N8vSJUS.jpg";
 const brian = "https://imgur.com/ur5ArT9.jpg";
 const dylan = "https://imgur.com/cIKvdKT.jpg";
 const larry = "https://imgur.com/XvIOB5N.jpg";
@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} alt="Streamline Logo" className="App-logo" />
-        <h1>Streamline</h1>
+        <h1>CRE Streamline</h1>
         <nav>
           <a href="#about">About</a>
           <a href="#problem">Problem</a>
