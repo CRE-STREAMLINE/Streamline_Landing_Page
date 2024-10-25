@@ -11,7 +11,7 @@ const scott = "https://imgur.com/N8vSJUS.jpg";
 const brian = "https://imgur.com/ur5ArT9.jpg";
 const dylan = "https://imgur.com/cIKvdKT.jpg";
 const larry = "https://imgur.com/XvIOB5N.jpg";
-const tony = "https://imgur.com/v4xL6pk.jpg";
+// const tony = "https://imgur.com/v4xL6pk.jpg";
 const kim = "https://imgur.com/XnKzuoz.jpg";
 // const director1 = "https://imgur.com/ZDIk5jy.jpg";
 // const director2 = "https://imgur.com/UTB6VkB.jpg";
@@ -152,20 +152,6 @@ An additional thing to consider, since the off-market sector has never been full
                 <li>CFO for Yuga Labs and Doodles</li>
               </ul>
               {/* <p>Kim is an influential CFO with a track record of success in both large corporations and startups. Her financial insights help us navigate complex financial landscapes.</p> */}
-            </div>
-            <div className="card">
-              <img src={tony} alt="Tony Konstant" />
-              <h3>Tony Konstant (Strategy Advisor)</h3>
-              <ul>
-                <li>$2.5 Billion sourced and closed in Commercial real estate sales</li>
-                <li>HoneyBricks: Head of Real Estate  Tokenized Real Estate Startup</li>
-                <li>Ashland Capital: Vice President</li>
-                <li>CRE Portfolio Leadership: LivCor, Magnolia Capital,Tishman Speyer, Waterton Assoc.</li>
-                <li>First non-Phd. selected to represent Dr. Norm Miller and USD at the Real Estate Research Institute</li>
-                <li>USD: MS, Real Estate</li>
-
-              </ul>
-              {/* <p>Tony is a strategic mastermind with extensive experience in commercial real estate. His guidance helps shape our strategic direction and growth plans.</p> */}
             </div>
           </div>
           <div className="why-winning-team">
