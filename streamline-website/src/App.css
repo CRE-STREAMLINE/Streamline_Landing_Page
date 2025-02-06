@@ -104,7 +104,7 @@ nav a {
 }
 
 .first-row {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .team-container:not(.first-row),

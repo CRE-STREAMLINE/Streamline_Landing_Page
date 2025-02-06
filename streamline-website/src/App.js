@@ -92,7 +92,7 @@ function App() {
             <span className="position-title">COO</span>
             <ul>
               <li>15+ Years in Strategy & Operations</li>
-              <li>Ex-GS, JPMC, Bloomberg</li>
+              <li>Ex-Spotify, Jimdo, McKinsey</li>
             </ul>
           </div>
           <div className="card">
@@ -103,16 +103,6 @@ function App() {
               <li>10 Years of CRE Sales</li>
             </ul>
           </div>
-          <div className="card">
-            <img src={han} alt="Han Ju Lee" />
-            <h3>Han Ju Lee</h3>
-            <span className="position-title">VP of Finance</span>
-            <ul>
-              <li>Bain & Company: M&A strategy</li>
-              <li>National Defense Ministry</li>
-            </ul>
-          </div>
-        
           <div className="card">
             <img src={jason} alt="Jason Ezer" />
             <h3>Jason Ezer</h3>
