@@ -92,7 +92,7 @@ function App() {
             <span className="position-title">COO</span>
             <ul>
               <li>15+ Years in Strategy & Operations</li>
-              <li>Ex-Spotify, Jimdo, McKinsey</li>
+              <li>Ex-Spotify, Jimdo</li>
             </ul>
           </div>
           <div className="card">
