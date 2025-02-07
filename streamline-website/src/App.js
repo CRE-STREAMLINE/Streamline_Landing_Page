@@ -103,7 +103,7 @@ function App() {
               <li>10 Years of CRE Sales</li>
             </ul>
           </div>
-          <div className="card">
+          {/* <div className="card">
             <img src={jason} alt="Jason Ezer" />
             <h3>Jason Ezer</h3>
             <span className="position-title">Operating Broker</span>
@@ -111,7 +111,7 @@ function App() {
               <li>Houston Astros: 19 property acquisitions</li>
               <li>Closed $400M+ assets</li>
             </ul>
-          </div>
+          </div> */}
           <div className="card">
             <img src={sydwell} alt="Sydwell Hajicek" />
             <h3>Sydwell Hajicek</h3>
